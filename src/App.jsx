@@ -6,7 +6,7 @@ import Services from './pages/Services';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import Gallery from './pages/Gallery';
-import Login from './pages/login';
+import Login from './pages/Login';
 import Signup from './pages/SignUp';
 import AdminLogin from './pages/AdminLogin';
 import Footer from './components/Footer';
