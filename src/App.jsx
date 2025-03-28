@@ -21,7 +21,6 @@ import Gototop from './components/Gototop';
 import Confirmation from './pages/Confirmation';
 import Appointments from './components/Appointments';
 import Reports from './components/Reports';
-import AdminBox from './components/Adminbox';
 import Menubox from './components/Menubox';
 import SettingPage from './pages/SettingPage';
 import ServicesUpdate from './pages/ServicesUpdate';
