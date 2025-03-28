@@ -21,6 +21,7 @@ import Gototop from './components/Gototop';
 import Confirmation from './pages/Confirmation';
 import Appointments from './components/Appointments';
 import Reports from './components/Reports';
+import AdminBox from './components/Adminbox';
 import Menubox from './components/Menubox';
 import SettingPage from './pages/SettingPage';
 import ServicesUpdate from './pages/ServicesUpdate';
@@ -32,7 +33,7 @@ import SettinngMenu from './components/SettinngMenu';
 import Testimonials from './components/Testimonial';
 import ProfilePage from './components/ProfilePage';
 import PrivateRoute from './components/PrivateRoute';
-import AdminBox from './components/Adminbox';
+
 
 function App() {
   const theme = {
