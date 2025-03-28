@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+
 import { Doughnut, Bar, Line, Pie } from "react-chartjs-2";
 import "chart.js/auto";
-import AdminBox from "./Adminbox";
 import { GlobalStyle } from "../GlobalStyle";
+import AdminBox from "./Adminbox";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -149,7 +150,7 @@ const NewDash = () => {
           animate: { opacity: 1, transition: { staggerChildren: 0.1 } }
         }}
       >
-        <AdminBox />
+        <AdminBox/>
         
         <DashboardGrid>
           <ChartBox

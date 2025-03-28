@@ -32,6 +32,7 @@ import SettinngMenu from './components/SettinngMenu';
 import Testimonials from './components/Testimonial';
 import ProfilePage from './components/ProfilePage';
 import PrivateRoute from './components/PrivateRoute';
+import AdminBox from './components/Adminbox';
 
 function App() {
   const theme = {
